@@ -73,3 +73,13 @@ label {
 .required-field {
     color: red;
 }
+span {
+    display : inline-block;
+  border:1px solid black;
+  height : 100%
+  }
+ 
+  .required:after {
+    content:" *";
+    color: red;
+  }
